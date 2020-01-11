@@ -1,0 +1,40 @@
+===========================================================================
+ ______                                __           __    __
+|   __ \.-----..----..--------..--.--.|  |_ .---.-.|  |_ |__|.-----..-----.
+|    __/|  -__||   _||        ||  |  ||   _||  _  ||   _||  ||  _  ||     |
+|___|   |_____||__|  |__|__|__||_____||____||___._||____||__||_____||__|__|
+===========================================================================
+This is a permutation calculator. You can define permutations, calculate
+inverses, and compose permutations.
+
+You can define a permutation using disjointed cycle notation:
+    a = [[2,3],[4,5,6]]
+Permutation "a" will send 2 -> 3, 3 -> 2, 4 -> 5, 5 -> 6, and 6 -> 4.
+
+You can also define a permutation using one-line notation:
+    b = [1,2,4,3]
+Permutation "b" will send 3 -> 4 and 4 -> 3.
+
+To define an identity permutation, use
+    c = []
+
+You can also define permutation using composition:
+    d = b*a*[[4,3]]
+Note that permutation composition are evaluated from right to left.
+
+To take an inverse, use ' (single-quote)
+    e = b'
+
+When you try to define new permutation, the program will tell you if it is
+successful. You can also print any permutation by entering then. For example,
+>>> a
+[[2,3],[4,5,6]]
+>>> a'
+[[2,3],[4,6,5]]
+>>> b*a*b'
+[[2,4],[3,5,6]]
+
+Should you have any question, email zhong.sh@northestern.edu.
+                                                          @ 2019 Shanghao Zhong
+Feel free to start defining or calculating permutation below.
+Use Ctrl+D to terminate.
