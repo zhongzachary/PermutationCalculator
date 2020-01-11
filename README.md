@@ -16,7 +16,7 @@ This is a small Java project created to help me studying [Advanced Group Theory 
 
 4. If you see some instruction of using Permutation Calculator, it is successfully started up. You should see something like the following.
 
-   ![start_calculator](support/start_calculator.png)
+   <img src="support/start_calculator.png" alt="start_calculator" style="zoom:67%;" />
 
 5. Following that instructor for using the calculator. Use Ctrl+D to terminate the program.
 
@@ -26,10 +26,10 @@ This is a small Java project created to help me studying [Advanced Group Theory 
 
 You can define a permutation by using either [one-line notation](https://en.wikipedia.org/wiki/Permutation#One-line_notation) or [cycle notation](https://en.wikipedia.org/wiki/Permutation#Cycle_notation).
 
-For example, for let $\sigma$ be a permutation where $\sigma(2) =4$, $\sigma(4) = 5$, $\sigma(5) = 2$, $\sigma(3) = 6$, $\sigma(6) = 3$, and $\sigma(x) = x$ for any other values. 
+For example, for let $\sigma$ be a permutation where <img src="https://latex.codecogs.com/gif.latex?\sigma(2)=4,\sigma(4)=5,\sigma(5)=2,\sigma(3)=6,\sigma(6)=3" title="\sigma(2)=4,\sigma(4)=5,\sigma(5)=2,\sigma(3)=6,\sigma(6)=3" style="zoom: 67%;" /> and <img src="https://latex.codecogs.com/gif.latex?\sigma(x) = x" style="zoom: 67%;" /> for any other values. 
 
-- In *one-line notation*, $\sigma = (146523)$, i.e., 1 will be sent to 1, 2 will be sent to 4, etc.
-- In *cycle notation*, however, $\sigma = (245)(36)$, i.e., 2 will be sent to 4, 4 will be sent to 5, 5 will be sent to 2, etc.
+- In *one-line notation*, <img src="https://latex.codecogs.com/gif.latex?\sigma = (146523)" style="zoom: 67%;" />, i.e., 1 will be sent to 1, 2 will be sent to 4, etc.
+- In *cycle notation*, however, <img src="https://latex.codecogs.com/gif.latex?\sigma = (245)(36)" style="zoom: 67%;"/>, i.e., 2 will be sent to 4, 4 will be sent to 5, 5 will be sent to 2, etc.
 
 To define a permutation using *one-line notation*, use 
 
@@ -49,7 +49,7 @@ Note that cycle notation is represented as an array of interger arrays, each of 
 
 #### Composition of Permutations
 
-Keep in mind [composition of permutations](https://en.wikipedia.org/wiki/Permutation#Composition_of_permutations), $\sigma\circ\tau$,  is evaluated from right to left, i.e., $\sigma\circ\tau(x) = \sigma(\tau(x))$. The calculator follows this rule, too. When you typed `a*b`, you are indeed calculating $a\circ b$.
+Keep in mind [composition of permutations](https://en.wikipedia.org/wiki/Permutation#Composition_of_permutations), <img src="https://latex.codecogs.com/gif.latex?\sigma \circ \tau" style="zoom: 67%;" />,  is evaluated from right to left, i.e., <img src="https://latex.codecogs.com/gif.latex?\sigma\circ\tau(x) = \sigma(\tau(x))" style="zoom: 67%;" />. The calculator follows this rule, too. When you typed `a*b`, you are indeed calculating <img src="https://latex.codecogs.com/gif.latex?a \circ b" style="zoom: 67%;" />.
 
 ## Building the Project
 
